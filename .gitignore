@@ -4,5 +4,3 @@
 *.tfvars
 dist/*
 !dist/.gitkeep
-*.csv
-*.json
