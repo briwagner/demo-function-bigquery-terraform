@@ -1,0 +1,8 @@
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+dist/*
+!dist/.gitkeep
+*.csv
+*.json
