@@ -19,6 +19,8 @@ There are two example files here to demonstrate loading data into BigQuery. Both
 * files tend to be larger in size, as field labels are repeated throughout
 * files must be in newline delimited JSON format
 
+In this example, we tell BigQuery to ignore the "pet" column for all the rows. When using CSV, this is only possible if it's the last row. With JSON, it occurs in the middle.
+
 What is ETL?
 
 Extract, transform and load. This is a process of transferring large amounts of data from one system into BigQuery. It's important to note that transform occurs before loading, not during the process. If you need to clean up data, or transform some values, that should be done as a separate process before moving to BigQuery. BigQuery operates very efficiently when loading up to millions of lines of data.
